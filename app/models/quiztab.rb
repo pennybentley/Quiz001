@@ -1,0 +1,2 @@
+class Quiztab < ApplicationRecord
+end
