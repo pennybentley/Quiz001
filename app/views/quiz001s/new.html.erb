@@ -1,0 +1,9 @@
+<br class="clear" />
+<div class="col-10 offset-1" >
+<h1>Enter Your Artwork Details</h1>
+  <%= simple_form_for @quiztab, url: new_path(@quiztab) do |f| %>
+    <%= f.input :text001 %>
+    <%= f.input :artist %>
+      <br />
+  <% end %>
+</div>
