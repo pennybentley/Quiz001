@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-<html>
   <head>
     <title>Quiz001</title>
     <%= csrf_meta_tags %>
@@ -12,10 +10,11 @@
   <body>
     <header >
       <div >
-        <h1> The headline for quiz #1</h1>
+        <h1> The best artworks!</h1>
       </div>
     </header>
     <br class="clear" />
+    <%= link_to 'new work', new_path ,class: 'btn btn-danger' %>
     <%= yield %>
   </body>
-</html>
+
